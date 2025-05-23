@@ -4,6 +4,14 @@
   themes: cyberpunk --default;
 }
 
+@plugin "daisyui/theme" {
+  name: "cyberpunk";
+  default: true;
+  --color-base-100: #ffc971;
+  --color-base-200: #ffb627;
+  --color-base-300: #ff9505;
+}
+
 @theme {
   --font-display: 'Notable', sans-serif;
   --font-body: 'Work Sans', sans-serif;

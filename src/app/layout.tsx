@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${notable.className} ${workSans.className} bg-amber-200`}>{children}</body>
+      <body className={`${notable.className} ${workSans.className}`}>{children}</body>
     </html>
   );
 }
